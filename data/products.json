@@ -1,0 +1,174 @@
+{
+  "products": [
+    {
+      "id": "grecell-ph-102",
+      "name": "GreCell® PH-102",
+      "category": "Oral Solid Dose",
+      "function": "binder",
+      "description": "Superior binding power and tablet hardness for direct compression applications",
+      "image": "./excipient_image/1.png",
+      "specifications": {
+        "particle_size": {
+          "x10": 20,
+          "x50": 100,
+          "x90": 180
+        },
+        "bulk_density": 320,
+        "moisture": "≤ 5.0"
+      }
+    },
+    {
+      "id": "grecell-ph-101",
+      "name": "GreCell® PH-101",
+      "category": "Oral Solid Dose",
+      "function": "binder",
+      "description": "Premium-grade MCC offering excellent compactibility for low-API or brittle-drug formulations",
+      "image": "./excipient_image/2.png",
+      "specifications": {
+        "particle_size": {
+          "x10": 10,
+          "x50": 50,
+          "x90": 90
+        },
+        "bulk_density": 340,
+        "moisture": "≤ 5.0"
+      }
+    },
+    {
+      "id": "grecell-ph-105",
+      "name": "GreCell® PH-105",
+      "category": "Oral Solid Dose",
+      "function": "filler",
+      "description": "Ultra-fine MCC ideal for ODTs and low-dose actives requiring rapid disintegration",
+      "image": "./excipient_image/3.png",
+      "specifications": {
+        "particle_size": {
+          "x10": 5,
+          "x50": 20,
+          "x90": 45
+        },
+        "bulk_density": 260,
+        "moisture": "≤ 5.0"
+      }
+    },
+    {
+      "id": "grecell-ph-200",
+      "name": "GreCell® PH-200",
+      "category": "Oral Solid Dose",
+      "function": "filler",
+      "description": "High-flow MCC engineered for large-scale DC and dry-granulation processes",
+      "image": "./excipient_image/1.png",
+      "specifications": {
+        "particle_size": {
+          "x10": 50,
+          "x50": 180,
+          "x90": 300
+        },
+        "bulk_density": 440,
+        "moisture": "≤ 5.0"
+      }
+    },
+    {
+      "id": "grecell-ph-301",
+      "name": "GreCell® PH-301",
+      "category": "Oral Solid Dose",
+      "function": "filler",
+      "description": "High-density MCC for capsule filling and high-load formulations",
+      "image": "./excipient_image/2.png",
+      "specifications": {
+        "particle_size": {
+          "x10": 10,
+          "x50": 50,
+          "x90": 90
+        },
+        "bulk_density": 430,
+        "moisture": "≤ 5.0"
+      }
+    },
+    {
+      "id": "grecell-ph-302",
+      "name": "GreCell® PH-302",
+      "category": "Oral Solid Dose",
+      "function": "filler",
+      "description": "High-density, mid-size MCC balancing flow and packing efficiency",
+      "image": "./excipient_image/3.png",
+      "specifications": {
+        "particle_size": {
+          "x10": 20,
+          "x50": 100,
+          "x90": 180
+        },
+        "bulk_density": 410,
+        "moisture": "≤ 5.0"
+      }
+    },
+    {
+      "id": "grecell-sil-90",
+      "name": "GreCell Sil® 90",
+      "category": "Oral Solid Dose",
+      "function": "binder",
+      "description": "Enhanced flow for low-API tablets and mini-tabs",
+      "image": "./excipient_image/1.png",
+      "specifications": {
+        "particle_size": {
+          "x10": 10,
+          "x50": 90,
+          "x90": 170
+        },
+        "bulk_density": 360,
+        "moisture": "≤ 5.0"
+      }
+    },
+    {
+      "id": "grecell-sil-100",
+      "name": "GreCell Sil® 100",
+      "category": "Oral Solid Dose",
+      "function": "binder",
+      "description": "Universal sMCC grade with superior compressibility and reduced ejection force",
+      "image": "./excipient_image/2.png",
+      "specifications": {
+        "particle_size": {
+          "x10": 20,
+          "x50": 120,
+          "x90": 200
+        },
+        "bulk_density": 335,
+        "moisture": "≤ 5.0"
+      }
+    },
+    {
+      "id": "grecell-sil-200",
+      "name": "GreCell Sil® 200",
+      "category": "Oral Solid Dose",
+      "function": "filler",
+      "description": "High-flow sMCC for high-speed presses and dry-granulation lines",
+      "image": "./excipient_image/3.png",
+      "specifications": {
+        "particle_size": {
+          "x10": 60,
+          "x50": 200,
+          "x90": 300
+        },
+        "bulk_density": 460,
+        "moisture": "≤ 5.0"
+      }
+    },
+    {
+      "id": "grecell-sil-hd",
+      "name": "GreCell Sil® HD",
+      "category": "Oral Solid Dose",
+      "function": "filler",
+      "description": "High-density sMCC for maximum packing efficiency in high-load capsules and moisture-sensitive APIs",
+      "image": "./excipient_image/1.png",
+      "specifications": {
+        "particle_size": {
+          "x10": 10,
+          "x50": 90,
+          "x90": 160
+        },
+        "bulk_density": 480,
+        "moisture": "≤ 5.0"
+      }
+    }
+  ]
+} 

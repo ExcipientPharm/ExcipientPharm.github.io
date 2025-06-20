@@ -1,0 +1,132 @@
+content = """
+### GreCell® Microcrystalline Cellulose (MCC)
+
+#### GreCell® PH-101  ·  *Oral Solid Dose*
+
+Premium-grade MCC offering excellent compactibility for low-API or brittle-drug formulations.  
+
+| Spec | Value |
+|------|-------|
+| **Particle size (µm)** | X<sub>10</sub> = 10&nbsp;&nbsp;•&nbsp;&nbsp;X<sub>50</sub> = 50&nbsp;&nbsp;•&nbsp;&nbsp;X<sub>90</sub> = 90 |
+| **Bulk density** | 340 g L⁻¹ |
+| **Moisture (LOD)** | ≤ 5.0 % |
+
+---
+
+#### GreCell® PH-102  ·  *Oral Solid Dose*
+
+Superior binding power and tablet hardness for direct compression.  
+
+| Spec | Value |
+|------|-------|
+| **Particle size (µm)** | X<sub>10</sub> = 20&nbsp;&nbsp;•&nbsp;&nbsp;X<sub>50</sub> = 100&nbsp;&nbsp;•&nbsp;&nbsp;X<sub>90</sub> = 180 |
+| **Bulk density** | 320 g L⁻¹ |
+| **Moisture (LOD)** | ≤ 5.0 % |
+
+---
+
+#### GreCell® PH-105  ·  *Oral Solid Dose*
+
+Ultra-fine MCC ideal for ODTs and low-dose actives requiring rapid disintegration.  
+
+| Spec | Value |
+|------|-------|
+| **Particle size (µm)** | X<sub>10</sub> = 5&nbsp;&nbsp;•&nbsp;&nbsp;X<sub>50</sub> = 20&nbsp;&nbsp;•&nbsp;&nbsp;X<sub>90</sub> = 45 |
+| **Bulk density** | 260 g L⁻¹ |
+| **Moisture (LOD)** | ≤ 5.0 % |
+
+---
+
+#### GreCell® PH-200  ·  *Oral Solid Dose*
+
+High-flow MCC engineered for large-scale DC and dry-granulation processes.  
+
+| Spec | Value |
+|------|-------|
+| **Particle size (µm)** | X<sub>10</sub> = 50&nbsp;&nbsp;•&nbsp;&nbsp;X<sub>50</sub> = 180&nbsp;&nbsp;•&nbsp;&nbsp;X<sub>90</sub> = 300 |
+| **Bulk density** | 440 g L⁻¹ |
+| **Moisture (LOD)** | ≤ 5.0 % |
+
+---
+
+#### GreCell® PH-301  ·  *Oral Solid Dose*
+
+High-density MCC for capsule filling and high-load formulations.  
+
+| Spec | Value |
+|------|-------|
+| **Particle size (µm)** | X<sub>10</sub> = 10&nbsp;&nbsp;•&nbsp;&nbsp;X<sub>50</sub> = 50&nbsp;&nbsp;•&nbsp;&nbsp;X<sub>90</sub> = 90 |
+| **Bulk density** | 430 g L⁻¹ |
+| **Moisture (LOD)** | ≤ 5.0 % |
+
+---
+
+#### GreCell® PH-302  ·  *Oral Solid Dose*
+
+High-density, mid-size MCC balancing flow and packing efficiency.  
+
+| Spec | Value |
+|------|-------|
+| **Particle size (µm)** | X<sub>10</sub> = 20&nbsp;&nbsp;•&nbsp;&nbsp;X<sub>50</sub> = 100&nbsp;&nbsp;•&nbsp;&nbsp;X<sub>90</sub> = 180 |
+| **Bulk density** | 410 g L⁻¹ |
+| **Moisture (LOD)** | ≤ 5.0 % |
+
+---
+
+### GreCell Sil® Silicified MCC (sMCC)
+
+#### GreCell Sil® 90  ·  *Oral Solid Dose*
+
+Enhanced flow for low-API tablets and mini-tabs.  
+
+| Spec | Value |
+|------|-------|
+| **Particle size (µm)** | X<sub>10</sub> = 10&nbsp;&nbsp;•&nbsp;&nbsp;X<sub>50</sub> = 90&nbsp;&nbsp;•&nbsp;&nbsp;X<sub>90</sub> = 170 |
+| **Bulk density** | 360 g L⁻¹ |
+| **Moisture (LOD)** | ≤ 5.0 % |
+
+---
+
+#### GreCell Sil® 100  ·  *Oral Solid Dose*
+
+Universal sMCC grade with superior compressibility and reduced ejection force.  
+
+| Spec | Value |
+|------|-------|
+| **Particle size (µm)** | X<sub>10</sub> = 20&nbsp;&nbsp;•&nbsp;&nbsp;X<sub>50</sub> = 120&nbsp;&nbsp;•&nbsp;&nbsp;X<sub>90</sub> = 200 |
+| **Bulk density** | 335 g L⁻¹ |
+| **Moisture (LOD)** | ≤ 5.0 % |
+
+---
+
+#### GreCell Sil® 200  ·  *Oral Solid Dose*
+
+High-flow sMCC for high-speed presses and dry-granulation lines.  
+
+| Spec | Value |
+|------|-------|
+| **Particle size (µm)** | X<sub>10</sub> = 60&nbsp;&nbsp;•&nbsp;&nbsp;X<sub>50</sub> = 200&nbsp;&nbsp;•&nbsp;&nbsp;X<sub>90</sub> = 300 |
+| **Bulk density** | 460 g L⁻¹ |
+| **Moisture (LOD)** | ≤ 5.0 % |
+
+---
+
+#### GreCell Sil® HD  ·  *Oral Solid Dose*
+
+High-density sMCC for maximum packing efficiency in high-load capsules and moisture-sensitive APIs.  
+
+| Spec | Value |
+|------|-------|
+| **Particle size (µm)** | X<sub>10</sub> = 10&nbsp;&nbsp;•&nbsp;&nbsp;X<sub>50</sub> = 90&nbsp;&nbsp;•&nbsp;&nbsp;X<sub>90</sub> = 160 |
+| **Bulk density** | 480 g L⁻¹ |
+| **Moisture (LOD)** | ≤ 5.0 % |
+
+---
+
+*LOD = Loss on Drying. All specifications are typical values; full CoA available on request.*
+"""
+
+with open('/mnt/data/grecell_products.md', 'w', encoding='utf-8') as f:
+    f.write(content)
+
+content[:400]

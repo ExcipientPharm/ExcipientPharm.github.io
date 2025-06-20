@@ -1181,6 +1181,8 @@ document.addEventListener('DOMContentLoaded', function() {
     // Only run on excipients page
     if (!window.location.pathname.includes('excipients')) return;
     
+    // 注释掉这个分页功能，因为已经由products.js处理
+    /*
     const PRODUCTS_PER_PAGE = 6;
     let currentPage = 1;
     
@@ -1321,4 +1323,5 @@ document.addEventListener('DOMContentLoaded', function() {
     observer.observe(productsGrid, {
         childList: true
     });
+    */
 }); 
